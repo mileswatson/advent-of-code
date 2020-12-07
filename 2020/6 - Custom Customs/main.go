@@ -63,10 +63,9 @@ func partTwo(groups [][]string) int {
 		}
 		for _, value := range set {
 			if value == len(group) {
-				total++;
+				total++
 			}
 		}
 	}
 	return total
 }
-
